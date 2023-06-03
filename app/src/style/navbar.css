@@ -1,0 +1,183 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 10px 30px;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  font-weight: 600;
+}
+.navbar__left p{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+
+.navbar__routes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a{
+  color: var(--dark-blue);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0px 20px;
+  padding: 2px;
+  font-size: 14px;
+}
+.navbar a{
+  padding-left: 7px;
+}
+.navbar .active{
+  color: var(--blue);
+}
+.navbar button{
+  height: 35px;
+  width: 80px;
+  color: white;
+  border-radius: 5px;
+  background-color: var(--blue);
+  border: 0px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.scroll{
+  background-color: #0D2237;
+  color: var(--white);
+}
+.scroll .navbar__routes a{
+  color: var(--white);
+}
+.scroll .active .navbar__routes a{
+  color: var(--blue);
+} 
+.scroll .navbar__right a{
+  color: var(--white);
+}
+.scroll .active .navbar__right a{
+  color: var(--blue);
+}
+.navbar__right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--dark-blue);
+}
+.navbar__right p{
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.navbar__right span {
+  cursor: pointer;
+  /* color: var(--dark-blue); */
+}
+.navbar__right .avatar{
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--white);
+}
+.profileDropdown{
+  position: absolute;
+  right: 25px;
+  background-color: white;
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: var(--dark-blue);
+}
+.profileDropdown p{
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.profileDropdown p:hover{
+  color: white;
+  background-color: var(--blue);
+}
+.profileDropdown a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+.profileDropdown button{
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  .navbar{
+    background-color: #0D2237;
+    color: var(--white);
+  }
+  .navbar span{
+    color: var(--white);
+  }
+  .active span{
+    color: var(--blue);
+  }
+  .navbar img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+  }
+  .navbar__routes{
+    background-color:#0D2237;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0px 70px 0px 70px;
+    margin: 0;
+  }
+  .navbar__routes a{
+    color: var(--white);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    padding: 0;
+  }
+  .navbar__routes a span{
+    padding: 0px;
+  }
+  .navbar button{
+    font-size: 12px;
+    width: 60px;
+    height: 30px;
+  }
+  .navbar__right a{
+    color: var(--white);
+  }
+}
+@media only screen and (max-width: 380px) {
+  .navbar__routes a span{
+    display: none;
+  }
+}

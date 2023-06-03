@@ -1,0 +1,174 @@
+.account{
+  margin-top: 70px;
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  */
+  flex-direction: column; 
+}
+.account__left{
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 10px;
+  /*  */
+  display: flex;
+  align-items: center;
+}
+.account__left p{
+  width: 200px;
+  padding: 8px;
+  background-color: var(--white);
+  border-radius: 8px;
+  margin: 10px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.account__left .active{
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 500;
+}
+.account__right{
+  border-radius: 8px;
+  margin: 30px;
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+}
+
+.account .myProfile .avatar{
+  font-size: 35px;
+  font-weight: 600;
+}
+.account .myProfile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.account .myProfile .username{
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.account .myProfile span{
+  font-size: 14px;
+  margin: 10px;
+  text-align: center;
+}
+.account .myProfile .logout{
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+.account .myProfile button{
+  cursor: pointer;
+  background-color: var(--dark-blue);
+  margin-top: 10px;
+  height: 40px;
+  border: 0px;
+  font-weight: 400;
+  color: var(--white);
+  outline: none;
+  border-radius: 7px;
+  width: 50%;
+}
+
+.account .editPassword{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.account .editPassword .editPassword__header{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.account .editPassword .editPassword__header p{
+  margin-top: 5px;
+}
+
+
+.account .editPassword .editPassword__body{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.account .editPassword .editPassword__body .inputField{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: var(--white);
+  border-radius: 7px;
+  width: 240px;
+}
+.account .editPassword .editPassword__body .inputField svg{
+  font-size: 17px;
+  opacity: 60%;
+}
+.account .editPassword .editPassword__body input{
+  height: 40px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  border: 0;
+  outline: none;
+}
+.account .editPassword .editPassword__body button{
+  width: 100%;
+  margin-top: 28px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0;
+  outline: none;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 400;
+}
+
+.account .myOrders{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.account .myOrders h3{
+  text-align: center;
+}
+.account .myOrders .myOrders__list{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+.account .myOrders .myOrders__list .orderContainer{
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .account .myOrders .myOrders__list .orderContainer:hover{
+  cursor: pointer;
+  background-color: var(--blue);
+} */
+.account .myOrders .myOrders__list .orderContainer .orderContainer__right{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}

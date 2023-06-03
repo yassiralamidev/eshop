@@ -1,0 +1,40 @@
+.itemCard{
+  padding:  15px;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: var(--white);
+  margin: 20px;
+}
+.itemCard img{
+  height: 200px;
+  padding: 15px;
+  width: 200px;
+  object-fit: contain;
+  background-color: white;
+  border-radius: 10px;
+}
+.itemCard p{
+  margin-top: 10px;
+}
+.itemCard div{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemCard div span{
+  font-weight: 500;
+  font-size: 13px;
+}
+.itemCard div button{
+  height: 35px;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 0px 8px ;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}

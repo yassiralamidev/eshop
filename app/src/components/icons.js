@@ -1,0 +1,17 @@
+export { default as HomeIcon } from "@mui/icons-material/Home";
+export { default as SearchIcon } from "@mui/icons-material/Search";
+export { default as LocalGrocery } from "@mui/icons-material/LocalGroceryStoreOutlined";
+export { default as ShoppingBag } from "@mui/icons-material/ShoppingBagOutlined";
+export { default as LogoutIcon } from "@mui/icons-material/Logout";
+export { default as PersonOutlineOutlinedIcon } from "@mui/icons-material/PersonOutlineOutlined";
+export { default as SupportAgentOutlinedIcon } from "@mui/icons-material/SupportAgentOutlined";
+export { default as LocalShippingOutlinedIcon } from "@mui/icons-material/LocalShippingOutlined";
+export { default as AttachMoneyOutlinedIcon } from "@mui/icons-material/AttachMoneyOutlined";
+export { default as GppGoodOutlinedIcon } from "@mui/icons-material/GppGoodOutlined";
+export { default as EmailOutlinedIcon } from "@mui/icons-material/EmailOutlined";
+export { default as GitHubIcon } from "@mui/icons-material/GitHub";
+export { default as LinkedInIcon } from "@mui/icons-material/LinkedIn";
+export { default as TwitterIcon } from "@mui/icons-material/Twitter";
+export {default as DeleteOutlineIcon} from '@mui/icons-material/DeleteOutline';
+export {default as CallOutlinedIcon} from '@mui/icons-material/CallOutlined';
+export {default as VisibilityIcon} from '@mui/icons-material/Visibility';

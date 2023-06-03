@@ -1,0 +1,8 @@
+export {default as Navbar} from './Navbar'
+export {default as ItemCard} from './ItemCard'
+export {default as Footer} from './Footer'
+export {default as Newsletter} from './Newsletter'
+export {default as AddToCart} from './AddToCart'
+export {default as MyProfile} from './MyProfile'
+export {default as MyOrders} from './MyOrders'
+export {default as EditProfile} from './EditPassword'

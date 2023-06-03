@@ -1,0 +1,136 @@
+.product{
+  padding: 20px 0px;
+}
+
+.product__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+.product__info .info__left{
+  width: 50%;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product__info .info__right{
+  width: 50%;
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  flex-direction:column ;
+}
+.product__info .info__right .info__name{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.product__info .info__right p{
+  padding: 2px 0px;
+}
+
+.product__info .info__left img{
+  width: 300px;
+  /* height: 100%; */
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.product__info .info__right .info__category{
+  text-transform: capitalize;
+
+}
+.product__info .info__right .info__button{
+  padding: 15px 0px;
+}
+.product__info .info__right .info__price span{
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 19px;
+}
+.product__info .info__right button{
+  height:35px;
+  color: #D7E2E9;
+  background-color: #2D7BD8;
+  padding: 0px 8px;
+  border-radius: 7px;
+  border: 0;
+  outline: 0;
+  cursor: pointer,
+}
+
+.info__colors{
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.info__colors .divColor{
+  padding: 3px;
+  border: 2px dotted none;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.info__colors .colorBorder{
+  border: 2px dotted var(--blue);
+}
+
+.info__color{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product__description{
+  margin-top: 100px;
+  background-color: var(--dark-blue);
+  padding: 10px;
+  color: var(--white);
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.product__description .descriptionTitle{
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 16px;
+}
+.product__recom{
+  margin-top: 100px;
+}
+.product__recom h2{
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.product__recom .recomList{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+@media only screen and (max-width: 750px){
+  .product__info{
+    flex-direction: column;
+  }
+  .info__right{
+    width: 100%;
+    padding: 0px;
+  }
+  .info__right p{
+    font-size: 16px;
+  }
+  .info__left{
+    width: 100%;
+  }
+}

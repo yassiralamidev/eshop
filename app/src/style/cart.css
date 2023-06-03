@@ -1,0 +1,133 @@
+.cart{
+  padding: 20px;
+}
+
+.cart__header{
+  color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.cart__header button{
+  margin-top: 20px;
+  color: white;
+  background-color: red;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  border-radius: 7px;
+}
+.header__left{
+  text-align: center;
+}
+.header__left p{
+  padding: 5px 0px;
+}
+
+
+.cart__list{
+  margin: 20px 0px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+.cart__result{
+  margin: 20px auto;
+  width: 40%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart__result a{
+  background-color: var(--blue);
+  color: var(--white);
+  border: 0;
+  outline: none;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.list__row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list__row .row{
+  color: var(--dark-blue);
+  margin: 10px;
+  font-weight: 500;
+  display: flex;
+  padding: 20px;
+  width: 68%;
+  border-radius: 10px;
+  border: 1px solid var(--dark-blue);
+  background-color: var(--white);
+  align-items: center;
+}
+.list__row .row .row__left img{
+  height: 100%;
+  width: 140px;
+  padding-right: 10px;
+  object-fit: contain;
+}
+.cart__list .row .row__right{
+  width: 100%;
+}
+.cart__list .row .row__right .right__bottom{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart__list .row .row__right .right__quantity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid var(--dark-blue);
+  padding: 5px;
+}
+.cart__list .row .row__right .right__quantity button{
+  border: 0;
+  outline: none;
+  background-color: var(--white);
+  color: var(--dark-blue);
+  font-weight: 600;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.cart__list .row .row__right .right__delete button{
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 0;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart__list .row .row__right .right__delete button:hover{
+  background-color: var(--white);
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+.emptyCart{
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.emptyCart a{
+  color: var(--dark-blue);
+}

@@ -1,0 +1,83 @@
+.contact{
+  padding: 20px 0px;
+}
+
+.contact__title{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+.contact__form{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.form__left{
+  color: var(--dark-blue);
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.form__left h2{
+  margin: 10px 0px;
+}
+
+.form__left .form__social div{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--dark-blue);
+  border-radius: 7px;
+  padding: 10px;
+  width: 240px;
+}
+.form__left .form__social div p{
+  font-size: 15px;
+  padding-left: 8px;
+}
+.form__right{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 20px;
+  padding: 20px;
+  margin-right: 20px;
+}
+.form__right input{
+  width: 300px;
+  margin: 8px 0px;
+  height: 39px;
+  outline: none;
+  background-color: var(--white);
+  border: 1px solid var(--dark-blue);
+  color: var(--dark-blue);
+  padding: 7px;
+  font-weight: 500;
+  text-indent: 5px;
+  border-radius: 7px;
+}
+.form__right input::placeholder{
+  color: var(--dark-blue);
+  font-weight: 100;
+}
+.form__right input[placeholder='Message']{
+  height: 80px;
+}
+
+.form__right button{
+  height: 40px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  border-radius: 7px;
+}
